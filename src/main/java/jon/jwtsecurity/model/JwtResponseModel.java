@@ -9,4 +9,8 @@ import lombok.Setter;
 @AllArgsConstructor
 public class JwtResponseModel  {
     private final String token;
+
+    public JwtResponseModel(String token){
+        this.token = token;
+    }
 }
