@@ -28,12 +28,14 @@
             <scope>test</scope>
         </dependency>
 
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version> <!-- Check for the latest version -->
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
@@ -90,3 +92,4 @@
     </build>
 
 </project>
+

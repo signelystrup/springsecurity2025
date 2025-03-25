@@ -7,6 +7,7 @@ import jon.jwtsecurity.model.User;
 import jon.jwtsecurity.service.IUserService;
 import jon.jwtsecurity.service.JwtUserDetailsService;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class JwtController {

@@ -35,4 +35,6 @@ public class User {
     public void setLocalTime(LocalTime localTime) {
         this.localTime = localTime;
     }
+
+
 }
